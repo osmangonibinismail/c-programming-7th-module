@@ -283,41 +283,83 @@
 
 //     return 0;
 // }
-#include <stdio.h>
-#include <limits.h>
+// #include <stdio.h>
+// #include <limits.h>
 
-int main()
-{
+// int main()
+// {
 
-    int n;
+//     int n;
 
-    scanf("%d", &n);
+//     scanf("%d", &n);
 
-    int a[n];
+//     int a[n];
 
-    for (int i = 0; i < n; i++)
-    {
+//     for (int i = 0; i < n; i++)
+//     {
 
-        scanf("%d", &a[i]);
-    }
+//         scanf("%d", &a[i]);
+//     }
 
-    int min = a[0], max = a[0];
+//     int min = a[0], max = a[0];
 
-    for (int i = 0; i < n; i++)
-    {
+//     for (int i = 0; i < n; i++)
+//     {
 
-        if(a[i] < min){
-            min = a[i];
-        }
+//         if(a[i] < min){
+//             min = a[i];
+//         }
 
-        if(a[i] > max){
-            max = a[i];
-        }
+//         if(a[i] > max){
+//             max = a[i];
+//         }
 
-        printf("Min: %d, Max: %d\n", min, max);
-    }
+//         printf("Min: %d, Max: %d\n", min, max);
+//     }
 
-    printf("Minimum: %d, Maximum: %d\n", min, max);
+//     printf("Minimum: %d, Maximum: %d\n", min, max);
 
-    return 0;
-}
+//     return 0;
+// }
+
+// #include <stdio.h>
+// int main()
+// {
+
+//     int a = 39;
+//     int b = 2;
+//     int c = -39;
+//     int d = -2;
+//     printf("%d %d %d %d", a % b, c % b, c % d, a % d);
+
+//     return 0;
+// }
+// #include <stdio.h>
+// int main()
+// {
+
+//     double a = -9.7;
+//     double b = fabs(floor(a));
+//     printf("%lf", b);
+
+//     return 0;
+// }
+// #include <stdio.h>
+// int main()
+// {
+
+//     int e, c = 5, d = -10, a = 9, b = 2;
+//     e = c++ - --d * b / a;
+//     printf("%d", e);
+
+//     return 0;
+// }
+// #include <stdio.h>
+// int main()
+// {
+
+//     int a = 9.5 + 2.5;
+//     printf("Z = %d\n", a);
+
+//     return 0;
+// }

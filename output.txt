@@ -1,8 +1,1 @@
-Min: 10, Max: 10
-Min: 10, Max: 38
-Min: 10, Max: 38
-Min: 10, Max: 40
-Min: 10, Max: 51
-Min: 10, Max: 95
-Min: 9, Max: 95
-Minimum: 9, Maximum: 95
+Z = 12
